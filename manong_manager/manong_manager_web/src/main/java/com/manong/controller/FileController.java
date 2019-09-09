@@ -19,6 +19,6 @@ public class FileController {
         if(null!=fileId){
             System.out.println("success");
         }
-        return fileId+"_"+uploadFile.getOriginalFilename();
+        return fileId;
     }
 }

@@ -36,6 +36,7 @@
         <json.version>1.1</json.version>
         <commons.codec>1.6</commons.codec>
         <freemarker.version>2.3.28</freemarker.version>
+        <servlet-api>2.5</servlet-api>
     </properties>
     <!--子模块需要使用的时候才会用到-->
     <dependencyManagement>
@@ -147,6 +148,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>${servlet-api}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
