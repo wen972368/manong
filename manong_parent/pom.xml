@@ -16,6 +16,7 @@
         <module>../manong_redis</module>
         <module>../manong_sso</module>
         <module>../manong_search</module>
+        <module>../manong_portal</module>
     </modules>
     <!--集中定义版本号-->
     <properties>
@@ -37,6 +38,7 @@
         <commons.codec>1.6</commons.codec>
         <freemarker.version>2.3.28</freemarker.version>
         <servlet-api>2.5</servlet-api>
+        <pagehelper.version>4.1.1</pagehelper.version>
     </properties>
     <!--子模块需要使用的时候才会用到-->
     <dependencyManagement>
@@ -153,6 +155,11 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>servlet-api</artifactId>
                 <version>${servlet-api}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>${pagehelper.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

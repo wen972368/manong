@@ -48,7 +48,7 @@
             var tabs = $("#tabs");
             var tab = tabs.tabs("getTab", node.text);
             if (tab) {//选项卡没有被打开过
-                tabs.tabs("selecte", node.text);
+                tabs.tabs("select", node.text);
             } else {
                 tabs.tabs('add', {
                     title: node.text,

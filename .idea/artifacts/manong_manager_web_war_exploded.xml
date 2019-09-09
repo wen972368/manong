@@ -37,6 +37,8 @@
           <element id="archive" name="manong_common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="manong_common" />
           </element>
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.1" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.4" />
           <element id="library" level="project" name="Maven: org.csource:fastdfs-client-java:1.27-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.26" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />

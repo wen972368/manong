@@ -12,6 +12,7 @@
         <module name="manong_manager_pojo" />
         <module name="manong_manager_service" />
         <module name="manong_manager_web" />
+        <module name="manong_portal" />
         <module name="manong_redis" />
         <module name="manong_rest" />
         <module name="manong_search" />
@@ -27,6 +28,7 @@
       <module name="manong_manager_service" target="1.8" />
       <module name="manong_manager_web" target="1.8" />
       <module name="manong_parent" target="1.8" />
+      <module name="manong_portal" target="1.8" />
       <module name="manong_redis" target="1.8" />
       <module name="manong_rest" target="1.8" />
       <module name="manong_search" target="1.8" />
