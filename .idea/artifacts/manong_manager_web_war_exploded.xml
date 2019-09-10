@@ -37,6 +37,9 @@
           <element id="archive" name="manong_common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="manong_common" />
           </element>
+          <element id="library" level="project" name="Maven: commons-net:commons-net:3.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.3.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.3.1" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.1" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.4" />
           <element id="library" level="project" name="Maven: org.csource:fastdfs-client-java:1.27-SNAPSHOT" />

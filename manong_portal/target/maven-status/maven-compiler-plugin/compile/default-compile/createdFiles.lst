@@ -1,2 +1,5 @@
 com\portal\controller\IndexController.class
+com\portal\service\impl\CategoriesServiceImpl.class
 com\portal\controller\FreemarkerTest.class
+com\portal\util\GsonUtils.class
+com\portal\service\CategoriesService.class

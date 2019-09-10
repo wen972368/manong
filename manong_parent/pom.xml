@@ -39,6 +39,9 @@
         <freemarker.version>2.3.28</freemarker.version>
         <servlet-api>2.5</servlet-api>
         <pagehelper.version>4.1.1</pagehelper.version>
+        <httpclient.version>4.3.2</httpclient.version>
+        <commons-net.version>3.3</commons-net.version>
+        <gson.verson>2.7</gson.verson>
     </properties>
     <!--子模块需要使用的时候才会用到-->
     <dependencyManagement>
@@ -157,10 +160,27 @@
                 <artifactId>servlet-api</artifactId>
                 <version>${servlet-api}</version>
             </dependency>
+            <!--httpClient-->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>${commons-net.version}</version>
+            </dependency>
+            <!--gson-->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson.verson}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
